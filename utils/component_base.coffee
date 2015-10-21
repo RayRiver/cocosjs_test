@@ -1,20 +1,21 @@
 
 class ComponentBase
   constructor: ->
-    this._owner = null
+    @_owner = null
 
   getOwner: ->
-    return _owner
+    return @_owner
 
   attach: (owner) ->
-    this._owner = owner
-    this.onAttached()
+    cc.assert(owner)
+    @_owner = owner
+    @onAttached()
 
   detach: ->
-    this.onDetached()
+    @onDetached()
 
   update: (dt) ->
-    this.onUpdate(dt)
+    @onUpdate(dt)
 
   # override these functions
   onAttached: ->

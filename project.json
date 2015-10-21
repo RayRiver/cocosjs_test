@@ -23,7 +23,6 @@
 
         "scenes/entry_scene.js",
 
-        "resources.js",
         "main.js"
     ]
 }
