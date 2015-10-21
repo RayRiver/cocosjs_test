@@ -1,0 +1,29 @@
+{
+    "debugMode"     : 1,
+    "frameRate"     : 60,
+    "id"            : "gameCanvas",
+    "renderMode"    : 1,
+    "jsList"        : [
+        "init.js",
+
+        "lib/bump.js",
+
+        "utils/input_manager.js",
+        "utils/scene_manager.js",
+
+        "utils/cocos_scene.js",
+        "utils/scene_base.js",
+        "utils/game_object.js",
+        "utils/entity_base.js",
+        "utils/component_base.js",
+        "utils/bump_world.js",
+
+        "objects/player.js",
+        "objects/block.js",
+
+        "scenes/entry_scene.js",
+
+        "resources.js",
+        "main.js"
+    ]
+}
