@@ -1,3 +1,4 @@
 .idea/
 *.js.map
 *.js
+!engine/cocos2d-js-v3.8.js
